@@ -27,7 +27,7 @@ public class Nonagon extends Shapes {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Nonagon h1 = new Nonagon("Nonagon", 6);
+		Nonagon h1 = new Nonagon("Nonagon", 9);
 		h1.Show_Details();
 	}
 

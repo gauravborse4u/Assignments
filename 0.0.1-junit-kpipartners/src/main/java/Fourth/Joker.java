@@ -1,6 +1,6 @@
 package Fourth;
 
-public class Joker {
+public class Joker implements I {
 
 	String Circus_name;
 	String J_dance;
@@ -13,11 +13,15 @@ public class Joker {
 		this.J_dance = J_dance;
 	}
 
-	void c_name() {
+	@Override
+	public void c_name() {
+		// TODO Auto-generated method stub
 		System.out.println("Circus Name : " + Circus_name);
 	}
 
-	void d_show() {
+	@Override
+	public void d_show() {
+		// TODO Auto-generated method stub
 		System.out.println("Joker is Dancing : " + J_dance);
 	}
 
@@ -61,4 +65,5 @@ public class Joker {
 		j88.d_show();
 
 	}
+
 }

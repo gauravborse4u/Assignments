@@ -28,8 +28,8 @@ public class Triangle extends Shapes {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Triangle h1 = new Triangle("Triangle", 6);
-		h1.Show_Details();
+		Triangle t1 = new Triangle("Triangle", 3);
+		t1.Show_Details();
 	}
 
 }

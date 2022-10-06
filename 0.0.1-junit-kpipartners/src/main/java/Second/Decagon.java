@@ -27,7 +27,7 @@ public class Decagon extends Shapes {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Decagon h1 = new Decagon("Decagon", 6);
+		Decagon h1 = new Decagon("Decagon", 10);
 		h1.Show_Details();
 	}
 

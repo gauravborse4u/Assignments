@@ -27,8 +27,8 @@ public class Square extends Shapes {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Square h1 = new Square("Square", 6);
-		h1.Show_Details();
+		Square s1 = new Square("Square", 4);
+		s1.Show_Details();
 	}
 
 }

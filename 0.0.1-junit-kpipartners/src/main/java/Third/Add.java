@@ -5,6 +5,10 @@ public class Add implements Runnable {
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
+		
+	}
+	
+	static public void add() {
 		int a = 10, b = 5;
 		int result = a + b;
 		System.out.println(result);

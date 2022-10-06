@@ -27,7 +27,7 @@ public class Pentagon extends Shapes {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Pentagon h1 = new Pentagon("Pentagon", 6);
+		Pentagon h1 = new Pentagon("Pentagon", 5);
 		h1.Show_Details();
 	}
 

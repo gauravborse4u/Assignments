@@ -10,7 +10,10 @@ public class TestSet_Operation {
 	@Test
 	public void check_set() {
 		
-		assertEquals(10, Set_Operation.set_size());
+		Set_Operation s = new Set_Operation();
+		
+		assertEquals(110, s.set_size());
+		
 	}
 	
 }

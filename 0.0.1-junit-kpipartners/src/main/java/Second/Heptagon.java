@@ -27,7 +27,7 @@ public class Heptagon extends Shapes {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Heptagon h1 = new Heptagon("Heptagon", 6);
+		Heptagon h1 = new Heptagon("Heptagon", 7);
 		h1.Show_Details();
 	}
 
